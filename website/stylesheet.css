@@ -1,4 +1,5 @@
-/* sets the initial element  to border--box and set margin and padding to zero*/
+
+/* sets the initial element  to border--box and set margin and padding to zero */
 *{
     box-sizing: border-box;
     margin:0;
@@ -100,24 +101,26 @@ nav{
 
 /* second section */
 
+
 /*main element*/
 .second-section{
-    height:170vh;
-    border:1px solid blue;
+    height:112vh;
 }
+
 
 /* second section paragragh*/
 .welcome-paragragh{
     font-size:20px;
-    border:1px solid red;
-    float: right;
-    width:600px;
-    height:500px;
-    margin-top:150px;
-    margin-right:10px;
-    position:relative;
+    padding:20px;
+    /*border:1px solid black;*/
+    width:500px;
+    height:600px;
+    top:700px;
+    right:20px;
+
+    position:absolute;
     z-index: 1;
-    right:500px;
+    
 }
 
 /* text formatting for section section paragragh*/
@@ -138,19 +141,20 @@ nav{
 }
 
 .welcome-paragragh p{
-    font-size:24px;
+    font-size:22px;
+
 }
 
 
 /* main image container */
 
 .welcome-image-container{
-    width:1075px;
-    height:850px;
-    border:1px solid red;
+    width:775px;
+    height:699px;
+    /*border:1px solid red;*/
     margin-top:50px;
-    display:absolute;
-    z-index:1;
+    display:relative;
+    z-index:-1;
    
 }
 
@@ -160,17 +164,75 @@ nav{
 
 .welcome-image-container div{
     float:left;
-    border:1px solid red;
-    height:380px;
-    width:535px;
-    position:relative;
-    z-index:-1;
+    /*border:1px solid red;*/
+    height:348px;
+    width:273px;
+    
 }
 
 
 /* image css */
 .welcome-image-container img{
-    width:278px; 
-    height:378px;
+    width:273px; 
+    height:348px;
+    
 
+
+}
+
+
+/* footer css*/
+.foot{
+    background-image:url('pictures/background.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border:1px solid blue;
+    height:60vh;
+    padding-left:150px;
+
+}
+/* three division sectionn css*/
+.foot div {
+    float:left;
+    border:1px solid red;
+    margin-right: 230px;
+    margin-top:25px;
+}
+
+
+/* text ccs edit*/
+
+
+.foot p{
+    width:250px;
+    font-size:20px;
+    margin-top:30px;
+    
+
+}
+
+/* list of links */
+.links{
+    width:80px;
+    height:200px;
+    margin-top:20px;
+}
+
+.links li{
+    list-style: none;
+    margin-top:10px;
+    border:1px solid black;
+
+}
+
+.links li a{
+    text-decoration:none;
+    font-size: 20px;
+}
+
+/*social links*/
+
+.social{
+    
 }
