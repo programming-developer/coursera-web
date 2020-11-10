@@ -9,6 +9,7 @@
 
 
 /* background image */
+
 #page_head{
     background-image:url('pictures/hotel2.jpg');
     background-repeat:no-repeat;
@@ -215,6 +216,69 @@ nav{
   to {opacity: 1}
    }
 
+
+/*-----------------form section-------------------------------------------*/
+.form_container{
+    brder:1px solid black;
+    background:rgba(0,0,0,0.5);
+    width:550px;
+    height:490px;
+    position:absolute;
+    z-index:1;
+    top:120px;
+    left:400px;
+
+}
+
+
+/* label css */
+
+label{
+    color:#f1f1f1;
+    padding-left:8px;
+    
+}
+
+/* header text */
+.form_header {
+    top:50px;
+    left:480px;
+    color:#f1f1f1;
+    text-align:center;
+    font-family:cursive;
+    padding:5px;
+    margin-bottom:5px;
+
+
+}
+
+
+/* css style for the given elements*/
+
+input[type=text],select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+}
+
+/* css for the submit button*/
+input[type=submit]{
+    background-color:#4CAF50;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+/* buttom css on hover*/
+input[type=submit]:hover{
+    background-color:#45a049;
+}
+
 /*- --------------------footer----------------------------------------*/
 
 
@@ -258,7 +322,7 @@ nav{
 .links{
     width:123px;
     height:200px;
-    margin-top:50px;
+    margin-top:55px;
     position:relative;
     left:50px;
 }
@@ -266,7 +330,7 @@ nav{
 .links li{
     list-style: none;
     margin-top:10px;
-    border:1px solid black;
+    order:1px solid black;
     width:120px;
     text-align: center;
 
@@ -275,6 +339,15 @@ nav{
 .links li a{
     text-decoration:none;
     font-size: 20px;
+    color:orange;
+    padding-right:5px;
+    padding-left:5px; 
+    order:1px solid black;
+}
+
+.links li a:hover{
+    background-color:lightgrey;
+    color:red;
 }
 
 /*social links*/

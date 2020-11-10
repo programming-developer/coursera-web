@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -16,10 +16,10 @@
 		
 	<nav>
 		<div class="nav">
-			<a href="#">Contact</a>
+			<a href="#contact">Contact</a>
 			<a href="#">Hotel</a>
 			<a href="#">Destination</a>
-			<a href="#">About</a>
+			<a href="#about">About</a>
 			<a style="color:orange;" href="#">Home</a>
 		</div>
 		<a class = "logo" href = "#home">Jamaica <span>Travel Agency</span></a>
@@ -33,7 +33,7 @@
 
 <div class="second-section">
 	<div class="welcome-paragragh">
-		<i>Welcome to Caribbean</i>
+		<i>Welcome to the Caribbean</i>
 		
 		<br>
 		<br>
@@ -73,32 +73,72 @@
 
 </div>
 
-
-<div  class="slideshow-container" >
-	<div class="myslides fade">
-		<img style="width:100%;height:100vh;" src="pictures/waterside.jpg"  alt="">
-	</div>
+<!-- --------------------third section ---------------*----------------------------------------------->
+<div style="position:relative;height:100vh;">
+	<div  class="slideshow-container" >
+		<div class="myslides fade">
+			<img style="width:100%;height:100vh;" src="pictures/waterside.jpg"  alt="">
+		</div>
 	
-	<div class="myslides fade">
-		<img  style="width:100%;height:100vh;;" src="pictures/sandals.jpg" alt="">
-	</div>
+		<div class="myslides fade">
+			<img  style="width:100%;height:100vh;;" src="pictures/dun.jpg" alt="">
+		</div>
 		
-	<div class="myslides fade">
-		<img  style="width:100%;height:100vh;" src="pictures/beach.jpg" alt="">
+		<div class="myslides fade">
+			<img  style="width:100%;height:100vh;" src="pictures/attract.jpg" alt="">
 
+		</div>
+
+		<div class="myslides fade">
+			<img  style="width:100%;height:100vh;" src="pictures/cliff.jpg" alt="">
+
+		</div>
+
+		<div class="myslides fade">
+			<img  style="width:100%;height:100vh;" src="pictures/destin.jpg" alt="">
+
+		</div>
+		
 	</div>
-	
+
+		
+
+	<div class="form_container">
+		<form style="padding:10px;"action="">
+			<p class="form_header"> CONTACT US ON WHERE YOU WANT TO VISIT </p>
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+			<label for="lname">Last Name </label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+			<label for="destination">Where Do You Want To Visit</label>
+			<select id="destination" name="destination">
+				<option value="blue mountain">blue mountain</option>
+				<option value="sandal ">sandal</option>
+				<option value="negril ">negril</option>
+				<option value="portland ">portland</option>
+				<option value="black river">black river</option>
+			</select>
+
+			<label for="question">Any Questions</label>
+			<textarea id="question" name="question" placeholder="Write any questions you may have......" style="height:100px;"></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
 
 </div>
 
-<script src="script1.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
 
 
 <!--  footer -->
 
-<div class="foot">
+<div class="foot" id="contact">
 
-	<div class="footer-passage">
+	<div class="footer-passage" id="about">
     	<h2>About</h2>
 
 		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
@@ -106,9 +146,11 @@
 		<br>
 		</br>
 		<span>
-			Telephone :(718) 839-5431
+			Telephone : (718) 839-5431
 			<br>
-			Address: We are located somewhere
+			Address: 
+			</br>
+			 We are located somewhere
 
 		</span>
 
@@ -117,6 +159,7 @@
 	
 	<div class="links">
 		<ul>
+			<li><a href="">Home</a></li>
 			<li><a href="">Destination</a></li>
 			<li><a href="">Hotel</a></li>
 			<li><a href="">Contact</a></li>
@@ -125,9 +168,9 @@
 	</div>
 
 	<div class="social">
-		<a href=""><img src="pictures/facebook.png" alt="facebook"></a>
-		<a href=""><img src="pictures/twitter.png" alt="twitter"></a>
-		<a href=""><img src="pictures/instagram.png" alt="instagram"></a>
+		<a target="_blank" href="https://www.facebook.com"><img src="pictures/facebook.png" alt="facebook"></a>
+		<a href="https://www.twitter.com" target="_blank"><img src="pictures/twitter.png" alt="twitter"></a>
+		<a href="https://www.instagram.com" target="_blank"><img src="pictures/instagram.png" alt="instagram"></a>
 	</div>
 
 	<p style="width:600px;position:absolute; top:300px">
